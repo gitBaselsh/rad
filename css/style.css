@@ -1,0 +1,131 @@
+
+
+
+body{
+
+    background: #12c2e9;  
+    background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9); 
+    background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); 
+   
+}
+#main_box{
+    
+
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+border-radius: 20px;
+
+
+
+
+
+}
+header{
+    width: 100%;
+    height: 300px;
+   
+    border-radius: 20px 20px 0px 0px;
+text-align: center;
+color: #fff;
+
+
+}
+ header img{
+    
+    height: 100px;
+    margin-top: 10PX;
+ }
+ header p{
+   font-size: 22px;
+   width: 50%;
+   background-color: rgba(0, 0, 255, 0.5);
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%);
+   border-radius: 50px;
+   border:1px solid rgb(7, 3, 3) ;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+ }
+ header h1{
+font-size: 40px;
+color:blue ;
+font-family: 'Rampart One', cursive;
+margin-bottom: 10px;
+ }
+ #buttons{
+display: flex;
+justify-content: center;
+padding-top: 25px;
+
+
+
+
+ }
+ #my_div{
+
+    border: 2px solid rgba(255, 0, 0, 0.349);
+    border-radius: 80px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-left: 2px solid rgba(0, 4, 255, 0.24);
+
+
+
+ }
+ #my_div img{
+    width: 60px;
+    height: 60px;
+    margin: 0 15px;
+    opacity: 0.9;
+    
+  
+}
+#rang{
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+    
+    
+}
+#range input[type="range" ]{
+height: 4px;
+width: 100%;
+
+
+
+}
+#rang h2{
+
+    background-color: rgba(0, 0, 255, 0.445);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#social{
+    text-align: center;
+
+    height: 20px;
+    width: 100%;
+    padding-top: 150px;
+    margin: 0px;
+  
+
+   
+
+}
+#social h3{
+   color:linear-gradient(to left, #f80759, #bc4e9c);
+    padding-bottom:20px ;
+    font-size:13px;
+    font-family: 'Allison', cursive;
+    
+
+}
+  
